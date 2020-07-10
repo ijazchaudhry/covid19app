@@ -1,0 +1,27 @@
+body {
+    background: rgba(180, 241, 228, 0.5) ;
+   }
+  
+  .container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .image {
+    width: 470px;
+    margin-top: -50px;
+    border-radius: 50%;
+  }
+  
+  @media only screen and (max-width: 770px) {
+    .container {
+      margin: 0 10%;
+    }
+  
+    .image {
+      
+      width: 100%;
+    }
+  }
+  
